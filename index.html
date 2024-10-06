@@ -10,61 +10,10 @@
             text-align: center;
         }
 
-        /* Style the image */
+        /* Style the image and make it smaller */
         img {
-            max-width: 100%;
+            max-width: 50%; /* Adjust this value to make the image smaller */
             height: auto;
-        }
-
-        /* Circle outlines for the clickable areas */
-        .circle {
-            position: absolute;
-            border: 2px solid red;
-            border-radius: 50%;
-            pointer-events: none; /* So it doesn't interfere with clicking */
-        }
-
-        /* Positioning based on the coords of the image map areas */
-        .membrane {
-            top: calc(1599px - 37px); /* Adjusted based on radius */
-            left: calc(709px - 37px); /* Adjusted based on radius */
-            width: 74px; /* Diameter */
-            height: 74px;
-        }
-
-        .axon {
-            top: calc(1529px - 37px);
-            left: calc(1097px - 37px);
-            width: 74px;
-            height: 74px;
-        }
-
-        .dendrite {
-            top: calc(1899px - 37px);
-            left: calc(796px - 37px);
-            width: 74px;
-            height: 74px;
-        }
-
-        .axon-hillock {
-            top: calc(1522px - 37px);
-            left: calc(903px - 37px);
-            width: 74px;
-            height: 74px;
-        }
-
-        .synapse {
-            top: calc(1294px - 37px);
-            left: calc(1645px - 37px);
-            width: 74px;
-            height: 74px;
-        }
-
-        .myelin-sheath {
-            top: calc(1516px - 37px);
-            left: calc(1028px - 37px);
-            width: 74px;
-            height: 74px;
         }
     </style>
 </head>
@@ -84,14 +33,6 @@
         <area target="_blank" alt="Synapse" title="Synapse" href="link_to_synapse" coords="1645,1294,37" shape="circle">
         <area target="_blank" alt="Myelin Sheath" title="Myelin Sheath" href="link_to_myelin_sheath" coords="1028,1516,37" shape="circle">
     </map>
-
-    <!-- Circles showing the clickable areas -->
-    <div class="circle membrane"></div>
-    <div class="circle axon"></div>
-    <div class="circle dendrite"></div>
-    <div class="circle axon-hillock"></div>
-    <div class="circle synapse"></div>
-    <div class="circle myelin-sheath"></div>
 
 </body>
 </html>
