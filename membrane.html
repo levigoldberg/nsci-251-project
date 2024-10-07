@@ -13,6 +13,10 @@
             max-width: 100%;
             height: auto;
         }
+        .small-image {
+        max-width: 50%; /* Adjust this percentage to make the image smaller */
+        height: auto;
+        }
     </style>
 </head>
 <body>
@@ -23,7 +27,7 @@
     <img src="membrane.jpg" usemap="#image-map" alt="Neuron Membrane">
 
     <map name="image-map">
-        <area alt="Ion channel" title="Ion channel" href="ion-channel.html" coords="215,125,43" shape="circle">
+        <area alt="Ion channel" title="Ion channel" href="voltage-gated-channel.html" coords="215,125,43" shape="circle">
     </map>    
 
     <section>
@@ -31,13 +35,15 @@
       <p>The neuron membrane undergoes several changes to relay information from one part of the neuron to the axon terminal. These changes primarily involve electrical signaling, known as the <strong>action potential</strong>. Key properties of the membrane that change include:</p>
   
       <h3>1. Membrane Potential</h3>
-      <p>The <strong>membrane potential</strong> refers to the difference in electrical charge across the neuronal membrane. At rest, the inside of the neuron is negatively charged compared to the outside, creating a <strong>resting membrane potential</strong> of about -70 mV. This potential is maintained by the activity of the sodium-potassium pump and ion channels.</p>
+      <p>The <strong>membrane potential</strong> refers to the difference in electrical charge across the neuronal membrane. </p>
+      <p>At rest, the inside of the neuron is negatively charged compared to the outside, creating a <strong>resting membrane potential</strong> of about -70 mV. This potential is maintained by the activity of the sodium-potassium pump and ion channels.</p>
+      <p>This is due to the uneven distribution of ions, with more potassium (K+) inside and more sodium (Na+) outside the cell. The membrane is more permeable to K+, allowing it to leave the cell, creating a negative charge inside. </p>
   
       <h3>2. Ion Permeability</h3>
       <p>The membrane's permeability to ions, particularly sodium (Na<sup>+</sup>) and potassium (K<sup>+</sup>), changes rapidly during signaling. <a href="voltage-gated-channels.html">Voltage-gated ion channels</a> open in response to changes in membrane potential. Sodium ions rush into the neuron, causing <strong>depolarization</strong>, while potassium ions exit to restore the resting potential in a process known as <strong>repolarization</strong>.</p>
   
       <h3>Action Potential Chart</h3>
-      <img src="action-potential.jpg" alt="Action Potential Chart">
+      <img src="action-potential.jpg" alt="Action Potential Chart" class="small-image">
       <p>The <strong>action potential</strong> is a rapid change in the membrane potential that occurs when a neuron sends a signal. The stages of an action potential include:</p>
   
       <ul>
