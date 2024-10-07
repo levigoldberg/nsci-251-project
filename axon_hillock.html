@@ -13,6 +13,14 @@
             max-width: 80%;
             height: auto;
         }
+        a {
+        color: blue;
+        text-decoration: none;
+    }
+
+    a:hover {
+        text-decoration: underline;
+    }
     </style>
 </head>
 <body>
@@ -20,10 +28,17 @@
     <h1>Axon Hillock</h1>
 
     <h3>1. Action Potential Propagation</h3>
-    <p>The <strong>axon hillock</strong> is the region where the cell body transitions into the axon and is crucial for initiating an <strong>action potential</strong>. This area contains a much higher concentration of voltage-gated Na<sup>+</sup> channels compared to other parts of the neuron, making it highly sensitive to changes in membrane potential. When the membrane at the axon hillock becomes sufficiently depolarized—reaching a threshold of around -55 mV—these voltage-gated channels open, allowing sodium ions to rush in. This triggers a wave of depolarization that propagates along the axon toward the terminal, resulting in the transmission of the signal. To learn more about how the membrane plays a role in this process, visit the <a href="membrane.html">Membrane Page</a>. After the depolarization phase, voltage-gated K<sup>+</sup> channels open to restore the resting membrane potential.</p>
+    <p>The <strong>axon hillock</strong> is the region where the cell body transitions into the axon and is crucial for initiating an <strong>action potential</strong>. This area contains a much higher concentration of <a href="voltage-gated-channels.html">voltage-gated Na<sup>+</sup> channels</a>compared to other parts of the neuron, making it highly sensitive to changes in membrane potential. When the membrane at the axon hillock becomes sufficiently depolarized—reaching a threshold of around -55 mV—these voltage-gated channels open, allowing sodium ions to rush in. This triggers a wave of depolarization that propagates along the axon toward the terminal, resulting in the transmission of the signal. To learn more about how the membrane plays a role in this process, visit the <a href="membrane.html">Membrane Page</a>. After the depolarization phase, voltage-gated K<sup>+</sup> channels open to restore the resting membrane potential.</p>
     
     <h3>2. Refractory Period</h3>
-    <p>Following an action potential, the membrane enters a <strong>refractory period</strong>, during which it becomes less responsive to stimuli. This ensures that the action potential travels in only one direction toward the axon terminal, preventing backward propagation.</p>
+    <p>Following an action potential, the membrane enters a <strong>refractory period</strong>, which is divided into two phases: the <strong>absolute refractory period</strong> and the <strong>relative refractory period</strong>. The refractory period occurs due to the behavior of the voltage-gated ion channels involved in generating the action potential, particularly sodium (Na<sup>+</sup>) and potassium (K<sup>+</sup>) channels.</p>
+    
+    <p>During the <strong>absolute refractory period</strong>, voltage-gated Na<sup>+</sup> channels become inactivated after opening. The inactivation gate closes, preventing further Na<sup>+</sup> entry even if the membrane is depolarized. This prevents the initiation of a new action potential and ensures that the signal travels in only one direction along the axon, toward the axon terminal, and does not propagate backward.</p>
+    
+    <p>The <strong>relative refractory period</strong> follows, during which some Na<sup>+</sup> channels begin to return to their resting state, but the membrane is still hyperpolarized due to the delayed closing of voltage-gated K<sup>+</sup> channels. A stronger-than-normal stimulus is required to initiate another action potential during this phase, ensuring that there is a short delay between successive action potentials.</p>
+    
+    <p>This coordination between the inactivation of Na<sup>+</sup> channels and the delayed closing of K<sup>+</sup> channels is what creates the refractory period.</p>
+    
     
     <a href="index.html">Back to Neuron</a>
 
