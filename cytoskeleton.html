@@ -6,31 +6,32 @@
     <title>Cytoskeleton of a Neuron</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f4;
-        }
-
-        header {
-            background-color: #4CAF50;
-            color: white;
-            padding: 10px 0;
+            position: relative;
             text-align: center;
         }
 
-        section {
-            margin: 20px;
-            padding: 20px;
-            background-color: white;
-            border-radius: 8px;
-            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        /* Add some margin for the text */
+        p {
+            margin-top: 20px;
+            font-size: 18px;
         }
 
-        h2 {
+        h1, h2, h3 {
             color: #4CAF50;
         }
 
+        /* Add a box shadow to the sections */
+        section {
+            margin: 20px auto;
+            padding: 20px;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            max-width: 800px;
+            text-align: left;
+        }
+
+        /* Style for structure sections */
         .structure {
             background-color: #f9f9f9;
             border-left: 5px solid #4CAF50;
@@ -39,26 +40,16 @@
             border-radius: 4px;
         }
 
-        .structure h3 {
-            color: #333;
-        }
-
-        footer {
-            text-align: center;
-            padding: 10px;
-            background-color: #4CAF50;
-            color: white;
-            position: fixed;
-            width: 100%;
-            bottom: 0;
+        img {
+            max-width: 100%; /* Make images responsive */
+            height: auto;
+            margin-top: 10px;
         }
     </style>
 </head>
 <body>
 
-    <header>
-        <h1>The Cytoskeleton of a Neuron</h1>
-    </header>
+    <h1>The Cytoskeleton of a Neuron</h1>
 
     <section>
         <h2>Overview</h2>
@@ -71,7 +62,7 @@
         <div class="structure">
           <h3>1. Microtubules</h3>
           <p>Microtubules are long, hollow tubes made of repeating subunits of alpha- and beta-tubulin. These subunits assemble in a helical structure, giving microtubules rigidity and strength, similar to an I-beam in architecture. Their rigid, tube-like structure supports the axon's shape and also provides tracks for the transport of organelles, vesicles, and other materials along the axon. The polarity of microtubules, with plus and minus ends, is critical for directional transport, facilitating the movement of cargo toward or away from the axon terminal via motor proteins like kinesins and dyneins.</p>
-          <img src="kinesin_walking.gif" alt="Kinesin walking along a microtubule" width="300" />
+          <img src="kinesin_walking.gif" alt="Kinesin walking along a microtubule" />
           <p>This GIF shows a kinesin motor protein walking along a microtubule, transporting cellular cargo toward the axon terminal.</p>
       </div>
       
@@ -84,12 +75,8 @@
           <h3>3. Actin Filaments</h3>
           <p>Actin filaments are composed of small, globular subunits (G-actin) that assemble into long, thin, and flexible helical chains (F-actin). These filaments are much thinner than microtubules or neurofilaments, allowing them to be highly dynamic and flexible. Actin's structure enables it to play a key role in neuron movement, particularly in the growth of axons and dendrites during development or repair. In synapses, actin filaments assist in the formation and remodeling of synaptic structures, which is important for synaptic plasticity and neural communication.</p>
       </div>
-        
-    </section>
 
-    <footer>
-        <p>&copy; 2024 Neuron Structure Guide</p>
-    </footer>
+    </section>
 
 </body>
 </html>
